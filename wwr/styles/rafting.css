@@ -174,3 +174,108 @@ main {
   align-items: center;
   margin: 20px 0;
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tilt+Neon&display=swap');
+:root {
+    --primary-color: #DBB1BC    ;
+    --secondary-color: #4D9DE0;
+    --accent1-color:    #785964   ;
+     --accent2-color:   #0EBE78   ;
+   
+     --heading-font: "Tilt neon", serif;
+     --paragraph-font: 'Roboto', serif;
+   
+     --nav-background-color: #DBB1BC;
+     --nav-link-color: #4D9DE0;
+     --nav-hover-link-color: #785964;
+     --nav-hover-background-color: #0EBE78; 
+ }
+header, main, footer {
+  max-width : 840px;
+  margin : 0 auto;
+}
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+h1 {
+  text-align: left;
+  color: var(--nav-hover-background-color);
+  border: none;
+}
+
+h2 {
+  text-align: center;
+  color : var(--nav-hover-background-color);
+  border : none;
+}
+header {
+  background-color : lightskyblue;
+  display : grid;
+  grid-template-columns : 1fr auto;
+  gap : 20px;
+  align-self : center;
+  margin-bottom : 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+
+header img{
+  margin: 10px auto;
+	position: relative;
+  float:left;
+  width:250px;
+  
+}
+ 
+
+main img{
+  width:400px
+}
+
+
+nav {
+  background-color: #4682b4;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav a{
+  display: block;
+  padding: 1.0rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgb(248, 240, 240); 
+}
+p {
+  text-align: auto;
+
+}
+.contact_info {
+  display: grid;
+  align-items: center;
+}
+.grid {
+  display: grid;
+  align-items: center;
+}
+
+
+.sociallinks {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.sociallinks img {
+  width: 30px;
+  margin:10px 5px;}
+
+  
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
