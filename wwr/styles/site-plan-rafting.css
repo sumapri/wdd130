@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 header {
 
-  padding: 30px;
+  padding: 20px;
   background-color: var(--accent1-color);
 }
 p {
@@ -32,7 +32,7 @@ p {
 nav {
   background-color: orange;
   font-size: 1.2rem;
-  flex-direction: row;
+  display: flex;
 }
 
 nav a {
@@ -40,12 +40,10 @@ nav a {
   color: orange;
   text-decoration: none;
   padding: 1rem;
-  flex-direction: row;
 }
 
 nav a:link, nav a:visited {
   color: orange;
-  flex-direction: row;
 }
 
 nav a:hover {

@@ -1,77 +1,74 @@
-<!--03/10/2023-->
 <!DOCTYPE html>
 <html lang="en-US">
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scalet=1.0">
-  <title>Sumara Prieto | WDD 130</title>
-  <meta name="description" content="Sumara Prieto's BYUI WDD 130 course home page">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | WhiteWater Rafting Adventure</title>
+  <meta name="description" content="Home page of WhiteWater Rafting Adventure website.">
   <meta name="author" content="Sumara Prieto">
-  <link rel="stylesheet" href="styles/styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/rafting.css">
 </head>
-
 <body>
   <header>
+    <img src="images/skelletons.jpg" alt="Rafting Site Logo" class="logo">
     <nav>
-      <a href="#">Home</a>
-      <a href="about.html">White Water Rafting Website</a>
-      <a href="site-plan-rafting.html"> Rafting Siteplan</a>
-      <a href="https://linkedin.com">Linkedin</a>
-      <a href="https://facebook.com/sumara.ribeiroprieto">Facebook</a>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="trips.html">Trips</a>
+      <a href="contact.html">Contact</a>
     </nav>
   </header>
-  <div class="grid">
-    <main>
-      <h1>Sumara Prieto | WDD 130</h1>
-      <img class="picture" src="images/profile.jpg" alt="Hi, my name is Sumara Prieto" width="200">
-      <p>Hi! My name is Sumara Prieto and I am from Sorocaba, Sao Paulo, Brasil. I have an international family, each of
-        my four children was born in a diferent country, the first one Mirella was born in Brasil, the second Michelle
-        born in Portugal, the third Christian born in Spain and the last one born in Salt Lake City. The first three are
-        already married and Nicholas is almost 18 and preparing to serve a mission. I have six grandchildren that I love
-        with all my heart. I love to travel, meet new people and eat good foods. My 3 favorites temples are: Sao Paulo
-        Brasil (Where I got sealed with my husband), Kansas City USA(My designated temple at the moment) and Madrid
-        Spain
-        (I saw this temple being built and dedicated).</p>
-
-      <ul class="box indent">
-        <li>
-
-          <a href="https://www.churchofjesuschrist.org/temples/details/sao-paulo-brazil-temple?lang=eng"
-            target="_blank">Sao Paulo Brazil Temple</a>
-        </li>
-        <li>
-
-          <a href="https://www.churchofjesuschrist.org/temples/details/kansas-city-missouri-temple?lang=eng"
-            target="_blank">Kansas City Temple</a>
-        </li>
-        <li>
-
-          <a href="https://www.churchofjesuschrist.org/temples/details/madrid-spain-temple?lang=eng"
-            target="_blank">Madrid Spain Temple</a>
-        </li>
-      </ul>
-    </main>
-    <aside class="box">
-      <h2>Missouri</h2>
-      <img src="images/missouri.jpeg" alt="Missouri Chiefs">
-      <p>Missouri is a state in the Midwestern region of the United States. Ranking 21st in land area, it is bordered by
-        eight states: Iowa to the north, Illinois, Kentucky and Tennessee to the east, Arkansas to the south and
-        Oklahoma,
-        Kansas and Nebraska to the west.Missouri played a central role in the westward expansion of the United States,
-        as
-        memorialized by the Gateway Arch. The Pony Express, Oregon Trail, Santa Fe Trail and California Trail all began
-        in
-        Missouri.</p>
-
-    </aside>
+<main>
+  <div>
+    <h1>WhiteWater Rafting Adventure</h1> <img src="images/raft2.jpg" alt="home">
   </div>
-  <footer>
-    <p>&copy;2023 🇧🇷 Sumara Prieto 🦌 Missouri</p>
-  </footer>
+  <div class="action">
+    <h2>⇣BOOK A TRIP NOW⇣</h2>
+    <p>Here you'll find all information to book your adventures trip! Are you ready?.</p>
+    <a href="trips.html" class="button">Avaliable Trip</a>  
+  </div>
+  <div class="purpose_offer">
+    <div>
+      <h3>Our Purpose</h3>
+      <p>Our primary purpose is to ensure the safety of our clients, by deliver a lifetime unforgetable experience.</p>
+      <img src="images/raft5.jpg" alt="purpose">
+    </div>
+    <div>
+      <h3>What we Offer</h3>
+      <p>We offer a experienced guide trhought the journey with all safety equipment include in all packages.</p>
+      <img src="images/raft3.jpg" alt="offer">
+    </div>
+  </div>
+  <form>
+    <fieldset>
+      <label>Full Name:</label>
+      <input type="text" id="fullname" name="fullname">
+      <label>Email:</label>
+      <input type="email" id="useremail" name="useremail">
+      <div class="check">
+        <label>Please subscribe me to the monthly newsletter</label>
+        <input type="checkbox" id="subscribe" name="subscribe">
+      </div>
+      <button type="submit">Submit Form></button>
+    </fieldset>
+  </form>
+</main>
+<footer>
+  <p>©️2023 🇧🇷 WhiteWater Rafting / Sumara Prieto</p>
+  <nav class="sociallinks">
+    <a href="https://facebook.com" target="_blank">
+      <img src="images/face_icon.png" alt="fb icon" width="60">
+    </a>
+    <a href="https://twitter.com" target="_blank">
+      <img src="images/twitter_icon.jpg" alt="twitter icon" width="60">
+    </a>
+    <a href="https://instagram.com" target="_blank">
+      <img src="images/instagram_icon.png" alt="instagram icon" width="60">
+    </a>
+    <a href="wire.html">Home wireframe</a>
+  </nav>
+</footer>
 </body>
-
 </html>

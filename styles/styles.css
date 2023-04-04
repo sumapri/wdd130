@@ -32,10 +32,10 @@ h1 {
 }
 
 main img {
-  width: 200px;
+  width: 120px;
   height: auto;
-  border: 1px solid rgb(180, 156, 70);
-  padding: 2px;
+  border: 1px solid rgb(244, 124, 5);
+  padding: 3px;
   box-shadow: 0 0 30px rgb(208, 75, 75);
   float: right;
   margin: 0 0 1rem 1rem;
@@ -64,7 +64,7 @@ aside img {
 }
 aside h2 {
   position: absolute;
-  top: 10px;
+  top: 20px;
   left: 100px;
 }
 footer {
